@@ -5,7 +5,9 @@ export default {
 </script>
 
 <template>
-  <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+  <div class="d-flex justify-content-center mt-5">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+  </div>
 </template>
 
 <style>
@@ -22,10 +24,10 @@ export default {
   width: 64px;
   height: 64px;
   margin: 8px;
-  border: 8px solid #fcf;
+  border: 8px solid rgb(95, 95, 95);
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fcf transparent transparent transparent;
+  border-color: rgb(95, 95, 95) transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s;

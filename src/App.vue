@@ -50,7 +50,7 @@ export default {
 
 <template>
   <div class="container">
-    <h1>Motore di ricerca libri</h1>
+    <h1 class="text-center">Motore di ricerca libri</h1>
     <SearchBar @startSearch="getAPI" />
     <Loader v-if="store.isLoading" />
     <div v-else>
